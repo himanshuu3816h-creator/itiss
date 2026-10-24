@@ -1,1 +1,163 @@
-lololololmmdfm[fhey this is my web page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f0ff;
+            color: #292344;
+        }
+
+        header {
+            background: #6c3ce9;
+            color: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #ffd6f5;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #e9dfff, #ffdff2);
+        }
+
+        .hero h2 {
+            font-size: 46px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            line-height: 1.7;
+            margin-bottom: 28px;
+        }
+
+        .btn {
+            background: #6c3ce9;
+            color: white;
+            padding: 13px 28px;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .btn:hover {
+            background: #4e22bd;
+        }
+
+        .services {
+            padding: 55px 8%;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 22px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            border-radius: 15px;
+            width: 250px;
+            box-shadow: 0 5px 18px #d8c9ef;
+        }
+
+        .card h3 {
+            color: #6c3ce9;
+            margin-bottom: 12px;
+        }
+
+        footer {
+            background: #292344;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Welcome to My Website!</h2>
+        <p>
+            Explore my website to learn new things, discover useful
+            resources, and start your journey into the world of technology.
+        </p>
+        <a href="#about" class="btn">Explore Now</a>
+    </section>
+
+    <section class="services" id="about">
+        <h2>About My Website</h2>
+        <p style="margin-top: 15px;">
+            This is my first webpage created using HTML and CSS.
+        </p>
+
+        <div class="cards" id="services">
+            <div class="card">
+                <h3>💻 Web Design</h3>
+                <p>Create beautiful and responsive webpages.</p>
+            </div>
+
+            <div class="card">
+                <h3>🚀 Technology</h3>
+                <p>Learn about modern tools and technologies.</p>
+            </div>
+
+            <div class="card">
+                <h3>📚 Learning</h3>
+                <p>Improve your skills through regular practice.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
